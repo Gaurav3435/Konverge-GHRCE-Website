@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>GHRCE-Konverge.AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+   * {
+      box-sizing: border-box;
+   }
+   body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   nav {
+      font-size: 20px;
+      background-color: #45489a;
+      color: #cccccc;
+      height: 75px;
+   }
+   ul {
+      position: fixed;
+      right:10px;
+   }
+   ul li {
+      display: inline;
+      padding-right: 30px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+   }
+   .logo {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      float: left;
+      font-size: 30px;
+      padding-left: 20px;
+      padding-top: 20px;
+   }
+   .blog {
+      margin-top: 20px;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 400px;
+   }
+   .post {
+      margin-top: 20px;
+      float: left;
+   }
+   .blogHeader {
+      font-size: 36px;
+      margin-bottom: 20px;
+   }
+   .links {
+      float: right;
+   }
+   .links li {
+      color: black;
+   }
+
+</style>
+</head>
+<body>
+   <nav>
+      <div class="logo">
+         GHRCE-Konverge.AI
+      </div>
+      <ul>
+         <li><a href='/#top' style='color:white;font-size: 17px;'>Home</a></li>
+         <li><a href='/#blog' style='color:white;font-size: 17px;'>More</a></li>
+         <li><a href='/#featured' style='color:white;font-size: 17px;'>Team</a></li>
+         <li><a href='/#location' style='color:white;font-size: 17px;'>Location</a></li>
+         <li><a href='/#contact' style='color:white;font-size: 17px;'>Contact</a></li>
+      </ul>
+   </nav>
+
+   <div class="blog">
+      <div class="post">
+         <div class="blogHeader">
+            <h3>{{blog.title}}</h3>
+         </div>
+         <div class="blog-body">
+            <h3>Mentors</h3>
+            <p>Gopal Sakarkar. Ketan Paithankar</p>
+            <h3>Team</h3>
+            <p>Gaurav Patil, Prateek Dutta, Shivam ,Ruchi, Riddhi, Akshita</p>
+            <br>
+            <h3>Details:</h3>
+            <p>
+               {{blog.description}}
+            </p>
+         </div>
+      </div>
+      <div class="links">
+      </div>
+   </div>
+ 
+</body>
+</html>
